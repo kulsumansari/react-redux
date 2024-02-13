@@ -1,0 +1,11 @@
+.userDiv{
+    border: 1px solid;
+    margin:5px;
+    width: 20vw;
+    height: 22vh;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

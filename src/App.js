@@ -1,22 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
-
+// import CounterFunction from './components/Counter/counterFunction';
+// import ThemeFunction from './components/Themes/ThemeFunc';
+//import Team  from "./components/Users/users";
+// import  Login  from "./components/Login/login";
+import Posts from './components/postsThunk';
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        {/* <Login /> */}
+        {/* <CounterFunction />
+        <ThemeFunction /> */}
+        {/* <Theme /> */}
+        <Posts />
       </header>
     </div>
   );
